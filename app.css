@@ -1,0 +1,182 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: 0;
+}
+body{
+    background-color: #fff;
+    font-family: sans-serif;
+}
+    
+
+ 
+
+ .phoneimage{
+    width: 100%; 
+    max-width: 370px;
+     height: 500px; 
+     background-image: url(./src/pic1.png);
+     animation: pic 4s 3s infinite;
+   }
+   
+   @keyframes pic {
+     0% {
+       background-image: url(./src/pic1.png);
+     }
+     50% {
+       background-image: url(./src/pic2.png);
+     }
+     100% {
+       background-image: url(./src/pic1.png);
+     }
+   }
+     
+   
+
+
+
+main{
+    width: 100%;/*demo*/
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin: auto;
+
+}
+.form-div{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+ 
+}
+.form-div form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgb(128, 128, 128, 0.3);
+    
+}
+.form-div form .instaLogo{
+    width: 100%;
+    max-width: 200px;
+    margin: 20px 0;
+}
+.input{
+    width: 90%;
+    padding: .6rem;
+    border-radius: 8px;
+    border: 1px solid rgb(128, 128, 128, .3);
+    margin: 3px;
+}
+.login-btn {
+    width: 98%;
+    padding: .4rem;
+    font-weight: 700;
+    background-color: rgb(1, 183, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+   
+}
+
+.login-btn a{
+    color: #fff;
+}
+
+
+#or{
+    margin: 20px 0;
+    font-weight: 700;
+}
+#or:before,
+#or:after{
+    content: "_______________";
+    color: rgb(128, 128, 128, .7);
+    margin: 0 10px;
+}
+.login-fb{
+    font-weight: 700;
+    font-size: 1vw;
+    color: rgb(13, 48, 116);
+}
+ .fb{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.forget a{
+    font-weight: 700;
+    color: rgb(13, 48, 116);
+} 
+.signup{
+    width: 100%;
+    max-width: 330px;
+    height: 30px;
+    padding:10px;
+    border: 1px solid rgb(128, 128, 128, .3);
+    margin-top: 15px;
+}
+ .signup-a{
+    font-weight: 700;
+    color:  rgb(46, 159, 229);
+
+} 
+.signup-p {
+    font-size:13px ;
+color: black;
+text-align: center;
+margin-top: 10px;
+}
+.getapp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+     .getapp p{
+        font-size: 1vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: black;
+    } 
+.store{
+    display: flex;
+align-items:  center;
+}
+#google{
+    width: 140px;
+    margin-right: 10px;
+
+}
+#microsoft{
+    width: 120px;
+    border-radius: 8px;
+}
+.footer{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.footer a, p{
+    font-size: 1vw;
+    color: rgb(128, 128, 128);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+option{
+    color: gray;
+}
+
+
+
+
