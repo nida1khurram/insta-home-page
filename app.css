@@ -168,7 +168,8 @@ align-items:  center;
     
 }
 .footer a, p{
-    font-size: 1vw;
+    font-size: 12px;
+    margin-left: 15px;
     color: rgb(128, 128, 128);
     margin-top: 20px;
     margin-bottom: 20px;
@@ -177,6 +178,7 @@ option{
     color: gray;
 }
 
-
-
-
+#lang{
+    border: none;
+    color: gray;
+}
